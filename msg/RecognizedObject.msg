@@ -16,6 +16,9 @@ object_recognition_msgs/ObjectType type
 # It is between 0 and 1 and the closer to one it is the better
 float32 confidence
 
+# An optional unique object instance ID, populated using object permanence/tracking
+uint32 instance_id
+
 ################################################ OBJECT CLUSTERS #######################################################
 
 # Sometimes you can extract the 3d points that belong to the object, in the frames of the original sensors
